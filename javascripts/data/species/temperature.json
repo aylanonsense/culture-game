@@ -1,0 +1,39 @@
+[
+	{
+		"id": "extremelyCold",
+		"label": "Extremely cold",
+		"scale": -4
+	},{
+		"id": "veryCold",
+		"label": "Very cold",
+		"scale": -3
+	},{
+		"id": "cold",
+		"label": "Cold",
+		"scale": -2
+	},{
+		"id": "slightlyCold",
+		"label": "Slightly cold",
+		"scale": -1
+	},{
+		"id": "neutral",
+		"label": "Neutral",
+		"scale": 0
+	},{
+		"id": "slightlyHot",
+		"label": "Slightly hot",
+		"scale": 1
+	},{
+		"id": "hot",
+		"label": "Hot",
+		"scale": 2
+	},{
+		"id": "veryHot",
+		"label": "Very hot",
+		"scale": 3
+	},{
+		"id": "extremelyHot",
+		"label": "Extremely hot",
+		"scale": 4
+	}
+]

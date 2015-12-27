@@ -1,0 +1,27 @@
+[
+	{
+		"id": "extremelyDry",
+		"label": "Extremely dry",
+		"scale": -2
+	},{
+		"id": "dry",
+		"label": "Dry",
+		"scale": -1
+	},{
+		"id": "neutral",
+		"label": "Neutral",
+		"scale": 0
+	},{
+		"id": "humid",
+		"label": "Humid",
+		"scale": 1
+	},{
+		"id": "extremelyHumid",
+		"label": "Humid",
+		"scale": 2
+	},{
+		"id": "water",
+		"label": "Water",
+		"scale": 3
+	}
+]

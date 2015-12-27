@@ -1,0 +1,38 @@
+[
+	{
+		"id": "he",
+		"label": "he",
+		"subject": "he",
+		"object": "him",
+		"possessiveAdjective": "his",
+		"possessivePronoun": "his",
+		"reflexive": "himself"
+	},
+	{
+		"id": "she",
+		"label": "she",
+		"subject": "she",
+		"object": "her",
+		"possessiveAdjective": "her",
+		"possessivePronoun": "hers",
+		"reflexive": "herself"
+	},
+	{
+		"id": "it",
+		"label": "it",
+		"subject": "it",
+		"object": "it",
+		"possessiveAdjective": "its",
+		"possessivePronoun": "its",
+		"reflexive": "itself"
+	},
+	{
+		"id": "they",
+		"label": "they",
+		"subject": "they",
+		"object": "them",
+		"possessiveAdjective": "their",
+		"possessivePronoun": "theirs",
+		"reflexive": "themself"
+	}
+]

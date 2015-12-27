@@ -1,0 +1,12 @@
+[
+	{
+		"id": "carnivore",
+		"label": "Carnivore"
+	},{
+		"id": "omnivore",
+		"label": "Omnivore"
+	},{
+		"id": "herbivore",
+		"label": "Herbivore"
+	}
+]

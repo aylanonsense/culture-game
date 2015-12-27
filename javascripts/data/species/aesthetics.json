@@ -1,0 +1,206 @@
+[
+	{
+		"id": "no Ears",
+		"label": "No Ears",
+		"excludesCategories": [ "ears" ]
+	},{
+		"id": "giantEars",
+		"label": "Giant Ears",
+		"categories": [ "ears" ]
+	},{
+		"id": "pointedEars",
+		"label": "Pointed Ears",
+		"categories": [ "ears" ]
+	},
+
+
+
+	{
+		"id": "beak",
+		"label": "Beak",
+		"categories": [ "mouthShape" ]
+	},{
+		"id": "snout",
+		"label": "Snout",
+		"categories": [ "mouthShape" ]
+	},{
+		"id": "trunk",
+		"label": "Trunk",
+		"categories": [ "mouthShape" ]
+	},
+
+
+
+	{
+		"id": "feathers",
+		"label": "Feathers",
+		"categories": [ "skin" ]
+	},{
+		"id": "scales",
+		"label": "Scales",
+		"categories": [ "skin" ]
+	},{
+		"id": "fur",
+		"label": "Fur",
+		"categories": [ "skin" ]
+	},{
+		"id": "woodSkin",
+		"label": "Wood Skin",
+		"categories": [ "skin" ]
+	},{
+		"id": "stoneSkin",
+		"label": "Stone Skin",
+		"categories": [ "skin" ]
+	},{
+		"id": "metalSkin",
+		"label": "Metal Skin",
+		"categories": [ "skin" ]
+	},
+
+
+
+	
+	{
+		"id": "horns",
+		"label": "Horns"
+	},{
+		"id": "whiskers",
+		"label": "Whiskers"
+	},{
+		"id": "fangs",
+		"label": "Fangs"
+	},{
+		"id": "tusks",
+		"label": "Tusks"
+	},{
+		"id": "forkedTongue",
+		"label": "Forked Tongue"
+	},{
+		"id": "blubber",
+		"label": "Blubber"
+	},{
+		"id": "wings",
+		"label": "Wings"
+	},{
+		"id": "claws",
+		"label": "Claws"
+	},{
+		"id": "armless",
+		"label": "Armless",
+		"excludesCategories": [ "arms" ]
+	},{
+		"id": "legless",
+		"label": "Legless",
+		"excludesCategories": [ "legs" ]
+	},{
+		"id": "manyArmed",
+		"label": "Many-armed",
+		"choices": [
+			{
+				"id": "number",
+				"label": "Number of arms",
+				"options": [
+					{
+						"id": "three",
+						"label": "Three"
+					},
+					{
+						"id": "four",
+						"label": "Four"
+					},
+					{
+						"id": "five",
+						"label": "Five"
+					},
+					{
+						"id": "six",
+						"label": "Six"
+					},
+					{
+						"id": "seven",
+						"label": "Seven"
+					},
+					{
+						"id": "eight",
+						"label": "Eight"
+					},
+					{
+						"id": "many",
+						"label": "Nine or more"
+					}
+				]
+			}
+		],
+		"categories": [ "arms" ]
+	},{
+		"id": "manyLegged",
+		"label": "Many-legged",
+		"choices": [
+			{
+				"id": "number",
+				"label": "Number of legs",
+				"options": [
+					{
+						"id": "three",
+						"label": "Three"
+					},
+					{
+						"id": "four",
+						"label": "Four"
+					},
+					{
+						"id": "five",
+						"label": "Five"
+					},
+					{
+						"id": "six",
+						"label": "Six"
+					},
+					{
+						"id": "seven",
+						"label": "Seven"
+					},
+					{
+						"id": "eight",
+						"label": "Eight"
+					},
+					{
+						"id": "many",
+						"label": "Nine or more"
+					}
+				]
+			}
+		],
+		"categories": [ "legs" ]
+	},{
+		"id": "tail",
+		"label": "Tail"
+	},{
+		"id": "shell",
+		"label": "Shell"
+	},{
+		"id": "skinColor",
+		"label": "Skin Color",
+		"choices": [
+			{
+				"id": "color",
+				"label": null,
+				"multiple": true,
+				"options": [
+					{
+						"id": "white",
+						"label": "White"
+					},
+					{
+						"id": "brown",
+						"label": "Brown"
+					},
+					{
+						"id": "black",
+						"label": "Black"
+					}
+				]
+			}
+		]
+	}
+]

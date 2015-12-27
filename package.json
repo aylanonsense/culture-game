@@ -1,0 +1,24 @@
+{
+  "name": "culture-game",
+  "version": "0.0.1",
+  "description": "A strategy game that's more about culture than war.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jquery": "^2.1.4",
+    "requirejs-plugins": "^1.0.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bridgs/culture-game.git"
+  },
+  "author": "bridgs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bridgs/culture-game/issues"
+  },
+  "homepage": "https://github.com/bridgs/culture-game"
+}

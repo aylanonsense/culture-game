@@ -1,0 +1,11 @@
+[
+	{
+		"id": "rodents",
+		"label": "Rodents",
+		"type": "meat"
+	},{
+		"id": "birds",
+		"label": "Birds",
+		"type": "meat"
+	}
+]

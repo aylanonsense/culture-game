@@ -1,0 +1,27 @@
+[
+	{
+		"id": "nausea",
+		"label": "Nausea",
+		"scale": -3
+	},{
+		"id": "disgust",
+		"label": "Disgust",
+		"scale": -2
+	},{
+		"id": "distaste",
+		"label": "Distaste",
+		"scale": -1
+	},{
+		"id": "appetizing",
+		"label": "Appetizing",
+		"scale": 1
+	},{
+		"id": "delicious",
+		"label": "Delicious",
+		"scale": 2
+	},{
+		"id": "delicacy",
+		"label": "Delicacy",
+		"scale": 3
+	}
+]

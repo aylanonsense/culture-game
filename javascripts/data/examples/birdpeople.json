@@ -1,0 +1,98 @@
+{
+	"name": {
+		"singular": "birdperson",
+		"plural": "birdpeople",
+		"all": "birdkind"
+	},
+	"lineage": [
+		{
+			"id": "animal",
+		},{
+			"id": "avian"
+		}
+	],
+	"sexes": [
+		{
+			"id": "male",
+			"label": "male",
+			"pronouns": "he",
+			"rate": 0.5
+		},{
+			"id": "female",
+			"label": "female",
+			"pronouns": "she",
+			"rate": 0.5
+		}
+	],
+	"varieties": [
+		{
+			"id": "winged",
+			"label": "winged",
+			"rate": 0.95
+		},{
+			"id": "clipped",
+			"label": "clipped",
+			"rate": 0.05
+		}
+	],
+	"aesthetics": [
+		{
+			"id": "beak"
+		},{
+			"id": "feathers"
+		},{
+			"id": "claws"
+		},{
+			"id": "wings",
+			"variety": "winged"
+		},{
+			"id": "skinColor",
+			"choices": [
+				{
+					"id": "color",
+					"options": [
+						{
+							"id": "white"
+						},{
+							"id": "brown"
+						},{
+							"id": "black"
+						}
+					]
+				}
+			]
+		}
+	],
+	"family": {
+		"reproduction": "sexual",
+		"relationships": "lifelong",
+		"parentalCare": true
+	},
+	"physicalTraits": [
+		{
+			"id": "flying",
+			"variety": "winged"
+		},{
+			"id": "hatchFromEggs"
+		}
+	],
+	"environment": {
+		"temperature": "neutral",
+		"humidity": "neutral"
+	},
+	"diet": "carnivore",
+	"foodPreferences": [
+		{
+			"id": "rodents",
+			"preference": "delicious"
+		},{
+			"id": "birds",
+			"preference": "disgust"
+		}
+	],
+	"instincts": [
+		{
+			"id": "hunter"
+		}
+	]
+}

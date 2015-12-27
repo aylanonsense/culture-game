@@ -1,0 +1,81 @@
+[
+	{
+		"id": "desert",
+		"label": "Desert",
+		"location": "land",
+		"temperature": "veryHot",
+		"humidity": "extremelyDry"
+	},{
+		"id": "tundra",
+		"label": "Tundra",
+		"location": "land",
+		"temperature": "veryCold",
+		"humidity": "dry"
+	},{
+		"id": "arctic",
+		"label": "Arctic",
+		"location": "land",
+		"temperature": "extremelyCold",
+		"humidity": "dry"
+	},{
+		"id": "prairie",
+		"label": "Prairie",
+		"location": "land",
+		"temperature": "neutral",
+		"humidity": "neutral"
+	},{
+		"id": "rainforest",
+		"label": "Rainforest",
+		"location": "land",
+		"temperature": "hot",
+		"humidity": "extremelyHumid"
+	},{
+		"id": "savanna",
+		"label": "Savanna",
+		"location": "land",
+		"temperature": "hot",
+		"humidity": "dry"
+	},{
+		"id": "swamp",
+		"label": "Swamp",
+		"location": "land",
+		"temperature": "neutral",
+		"humidity": "humid"
+	},{
+		"id": "mountains",
+		"label": "Mountains",
+		"location": "land",
+		"temperature": "cold",
+		"humidity": "neutral"
+	},{
+		"id": "volcano",
+		"label": "Volcano",
+		"location": "land",
+		"temperature": "extremelyHot",
+		"humidity": "dry"
+	},{
+		"id": "forest",
+		"label": "Forest",
+		"location": "land",
+		"temperature": "neutral",
+		"humidity": "neutral"
+	},{
+		"id": "freshwater",
+		"label": "Freshwater",
+		"location": "underwater",
+		"temperature": "slightlyCold",
+		"humidity": "water"
+	},{
+		"id": "deepOcean",
+		"label": "Deep Ocean",
+		"location": "underwater",
+		"temperature": "veryCold",
+		"humidity": "water"
+	},{
+		"id": "coralReef",
+		"label": "Coral reef",
+		"location": "underwater",
+		"temperature": "neutral",
+		"humidity": "water"
+	}
+]

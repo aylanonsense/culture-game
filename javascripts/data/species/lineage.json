@@ -1,0 +1,48 @@
+[
+	{
+		"id": "humanoid",
+		"label": "Humanoid"
+	},{
+		"id": "monstrous",
+		"label": "Monstrous"
+	},{
+		"id": "magical",
+		"label": "Magical"
+	},{
+		"id": "natureSpawn",
+		"label": "Nature-spawn"
+	},{
+		"id": "aquatic",
+		"label": "Aquatic"
+	},{
+		"id": "undead",
+		"label": "Undead"
+	},{
+		"id": "mechanical",
+		"label": "Mechanical"
+	},{
+		"id": "mechanical",
+		"label": "Construct"
+	},{
+		"id": "reptilian",
+		"label": "Reptilian"
+	},{
+		"id": "mammal",
+		"label": "Mammal"
+	},{
+		"id": "angelic",
+		"label": "Angelic"
+	},{
+		"id": "demonic",
+		"label": "Demonic"
+	},{
+		"id": "rodent",
+		"label": "Rodent"
+	},{
+		"id": "animal",
+		"label": "Animal"
+	},{
+		"id": "avian",
+		"label": "Avian"
+	}
+]
