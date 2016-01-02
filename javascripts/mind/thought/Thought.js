@@ -1,20 +1,30 @@
-define(function() {
+define([
+	'mind/algorithm/calculateTotalCertainty'
+], function(
+	calculateTotalCertainty
+) {
 	function Thought(params) {
 		this.thoughtType = params.thoughtType;
-		this.memory = params.memory;
-		this.mind = this.memory.mind;
-		this.supportingMemories = [ { memory: params.memory } ];
+		this.mind = params.memory.mind;
+		this.certainty = 0;
+		this.supportingMemories = [];
+		this.addSupportingMemory(params);
 	}
 	Thought.prototype.canCombineWith = function(thought) {
 		throw new Error('To be implemented by subclasses');
 	};
+	Thought.prototype.addSupportingMemory = function(params) {
+		var memory = {
+			memory: params.memory,
+			certainty: params.certainty
+		};
+		this.supportingMemories.push(memory);
+		this.calculateStats();
+		return memory;
+	};
 	Thought.prototype.combine = function(thought) {
 		if(this.canCombineWith(thought)) {
-			for(var i = 0; i < thought.supportingMemories.length; i++) {
-				this.supportingMemories.push({
-					memory: thought.supportingMemories[i].memory
-				});
-			}
+			this.supportingMemories.concat(thought.supportingMemories);
 			return true;
 		}
 		else {
@@ -23,6 +33,9 @@ define(function() {
 	};
 	Thought.prototype.toString = function() {
 		return '[Thought ' + this.thoughtType + ']';
+	};
+	Thought.prototype.calculateStats = function() {
+		this.certainty = calculateTotalCertainty(this.supportingMemories);
 	};
 	return Thought;
 });

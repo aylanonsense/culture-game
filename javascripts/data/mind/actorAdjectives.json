@@ -1,0 +1,12 @@
+[
+	{
+		"id": "trustworthy",
+		"adjective": "trustworthy",
+		"opposite": "untrustworthy"
+	},
+	{
+		"id": "trusting",
+		"adjective": "trusting",
+		"opposite": "distrustful"
+	}
+]

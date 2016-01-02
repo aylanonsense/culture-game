@@ -12,34 +12,23 @@ define(function() {
 	Mind.prototype.addMemory = function(memory) {
 		this.memories.push(memory);
 		memory.unpackMemory();
+		return memory;
 	};
 	Mind.prototype.addThought = function(thought) {
-		this.thoughts.push(thought);
-		return thought;
-	};
-	/*Mind.prototype.learnOccurrence = function(occurrence) {
-		//create a local memory of the occurrence
-		var memory = occurrence.createMemory();
-		this.memories.push(memory);
-
-		//use that memory to create, support, or challenge thoughts
-		var thoughts = memory.createThoughts();
-		for(var i = 0; i < thoughts.length; i++) {
-			var isNewThought = true;
-			for(var j = 0; j < this.thoughts.length; j++) {
-				//try to combine the new thought with an existing thought
-				if(this.thoughts[j].combine(thoughts[i])) {
-					isNewThought = false;
-					break;
-				}
-			}
-			if(isNewThought) {
-				this.thoughts.push(thoughts[i]);
+		//try to combine the new thought with an existing thought
+		for(var i = 0; i < this.thoughts.length; i++) {
+			if(this.thoughts[i].combine(thought)) {
+				return thought;
 			}
 		}
 
-		//TODO opinions
-	};*/
+		//otherwise just add it as a new, novel thought
+		this.thoughts.push(thought);
+		return thought;
+	};
+	Mind.prototype.calculateActorTrustworthiness = function(actor) {
+		return 0.5;
+	};
 	Mind.prototype.toString = function() {
 		var i, s = 'Memories:';
 		for(i = 0; i < this.memories.length; i++) {

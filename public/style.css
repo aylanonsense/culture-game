@@ -1,9 +1,7 @@
-* {
-	font-family: "Courier New", Courier, monospace;
-	color: #d0d0d0;
-	font-size: 14px;
-}
 body {
+	font-family: "Courier New", Courier, monospace;
+	color: #b7b7b7;
+	font-size: 14px;
 	position: relative;
 	margin: 0;
 	background-color: #000;
@@ -24,6 +22,11 @@ body {
 	left: 7px;
 	right: 7px;
 	overflow-y: scroll;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
 }
 #input-area {
 	position: absolute;
@@ -43,6 +46,24 @@ body {
 	width: 100%;
 	outline: none;
 }
+
+.white { color: #ffffff; }
+.black { color: #000000; }
+.gray { color: #b7b7b7; }
+.darkgray { color: #686868; }
+.blue { color: #0000ff; }
+.darkblue { color: #000091; }
+.green { color: #00ff0d; }
+.darkgreen { color: #009404;}
+.teal { color: #00ffff; }
+.darkteal { color: #009291; }
+.red { color: #ff0000; }
+.darkred { color: #950000; }
+.pink { color: #ff00ff; }
+.darkpink { color: #940091; }
+.yellow { color: #ffff05; }
+.darkyellow { color: #929402; }
+
 pre {
 	margin: 0;
 }

@@ -3,6 +3,7 @@ define(function() {
 		this.occurrenceType = params.occurrenceType;
 		this.mind = params.mind || null;
 		this.parentMemory = params.parentMemory || null;
+		this.certainty = (params.certainty || params.certainty === 0 ? params.certainty : null);
 		this.occurrence = params.occurrence || null;
 	}
 	Occurrence.prototype.clone = function() {

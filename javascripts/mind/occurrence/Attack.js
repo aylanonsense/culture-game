@@ -34,6 +34,7 @@ define([
 			if(this.attacker) {
 				this.mind.addThought(new ActorIs({
 					memory: this,
+					certainty: this.certainty * 0.6,
 					actor: this.attacker,
 					adjective: 'aggressive'
 				}));
@@ -41,7 +42,8 @@ define([
 		}
 	};
 	Attack.prototype.toString = function() {
-		return this.attacker + ' attacked ' + this.defender;
+		return this.attacker + ' attacked ' + this.defender +
+			(this.certainty === null ? '' : ' (' + this.certainty + ')');
 	};
 	return Attack;
 });

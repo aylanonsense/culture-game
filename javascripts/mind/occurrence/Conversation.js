@@ -30,9 +30,11 @@ define([
 		//if I'm the listener, I can gain memories through them and think about my relationship with the speaker
 		//if I'm not involved, I can think about the two actors talking and still gain memories from them
 		else {
-			var trust = '2nd-hand-unreliable';
+			var certainty = this.mind.calculateActorTrustworthiness(this.speaker);
 			for(var i = 0; i < this.subjects.length; i++) {
-				this.mind.addMemory(this.subjects[i].cloneMemory(this.mind, this));
+				var memory = this.subjects[i].cloneMemory(this.mind, this);
+				memory.certainty = certainty;
+				this.mind.addMemory(memory);
 			}
 		}
 	};
